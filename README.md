@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3319da0c-8e76-4a21-a271-ea27a8abeb54/deploy-status)](https://tiny-jelly-8441e0.netlify.app/)
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
