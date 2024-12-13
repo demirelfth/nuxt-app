@@ -17,7 +17,8 @@
     // })
 
     // this part for online api
-    const { data } = await useFetch('api/ninja')
+    const { data } = await useFetch('api/currency/AED')
+    // const { data } = await useFetch('api/ninja')
 </script>
 
 <style scoped>

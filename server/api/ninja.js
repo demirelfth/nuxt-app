@@ -1,5 +1,7 @@
 export default defineEventHandler(async (event) => {
 
+    const { currencyKey } = useRuntimeConfig()
+
     // handle query params
     // const { name } = getQuery(event)
 
@@ -7,7 +9,7 @@ export default defineEventHandler(async (event) => {
     // const { age } = await readBody(event)
 
     // api call with private key
-    const { data } = await $fetch('https://api.currencyapi.com/v3/latest?apikey=cur_live_98R2icek65qGC3wiEHGWRYZFLgax0s6dXtfCI3op')
+    const { data } = await $fetch(`https://api.currencyapi.com/v3/latest?apikey=${currencyKey}`)
 
     // return {
     //     message: `Hello, ${name}! Your age is ${age}`
